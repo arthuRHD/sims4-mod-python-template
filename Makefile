@@ -1,4 +1,4 @@
-BASE_ZIP=resources/base.zip
+BASE_ZIP=base.zip
 SRC_DIR=src
 OUTPUT_DIR=output
 TS4SCRIPT_NAME=MyMod.ts4script
