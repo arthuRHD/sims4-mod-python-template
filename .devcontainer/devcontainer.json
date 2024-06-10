@@ -1,10 +1,15 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.3.5",
-      "optimize": true,  
-      "toolsToInstall": "uncompyle6,pylint"
-    }
-  }
+    "name": "Sims 4 Mod Development",
+    "context": "..",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspace,type=bind"
+    ],
+    "remoteUser": "root",
+    "extensions": [
+        "ms-python.python"
+    ]
 }
