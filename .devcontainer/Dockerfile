@@ -27,7 +27,7 @@ RUN apt-get install -y python3-pip \
 
 RUN update-alternatives --install /usr/bin/python python /usr/local/bin/python3.3 1
 
-RUN apt-get install -y git vim
+RUN apt-get install -y git vim zip unzip
 
 WORKDIR /workspace
 COPY . /workspace
