@@ -1,6 +1,6 @@
 BASE_ZIP=base.zip
 SRC_DIR=src
-OUTPUT_DIR=output
+OUTPUT_DIR=src/__pycache__
 TS4SCRIPT_NAME=MyMod.ts4script
 
 all: package
