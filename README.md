@@ -2,28 +2,9 @@
 
 This repository contains a development environment for creating Sims 4 mods using Python 3.3.5.
 
-## Getting Started
+It's supposed to be used inside a GitHub Codespace or locally with the Devcontainer extension of the editor of your choice.
 
-To get started with this development environment:
-
-1. Clone the repository:
-
-    ```sh
-    git clone https://github.com/arthuRHD/sims4-mod-python-template.git
-    cd sims4-mod-python-template
-    ```
-
-2. Open the project in Visual Studio Code:
-
-    - Open Visual Studio Code.
-    - Use the Command Palette (`Ctrl+Shift+P`) and select `Remote-Containers: Open Folder in Container...`.
-    - Choose the `sims4-mod-python-template` folder.
-
-3. Visual Studio Code will build and open the development container with the environment set up for Sims 4 mod development.
-
-## Using the Makefile
-
-The `Makefile` provides several commands to automate common tasks:
+## Usage
 
 - **Unzip the base game script archive**:
 
